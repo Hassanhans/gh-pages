@@ -136,7 +136,8 @@ h2 {
   font-size: 16px;
 }
 
-#btn-fun:hover {
+#btn-fun:hover { 
+  cursor: pointer;
   background: white;
   color: rgba(255, 177, 0, 1);
   transition: 0.2s;
@@ -194,5 +195,5 @@ ul {
 }
 
 body {
-  background: rgba(234, 234, 234, 0.473);
+  background: rgba(156, 184, 80, 0.61);
 }
