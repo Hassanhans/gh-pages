@@ -10,11 +10,11 @@ h1 {
 }
 
 .picture-card {
-  width: 200px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 100px;
   display: inline-block;
 }
 
@@ -44,7 +44,11 @@ h2 {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  float: left;
+  &__text {
+  display: inline;
 }
+
 
 @keyframes animated_div {
 0% {
@@ -154,8 +158,8 @@ h2 {
 
 .fun-pic {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 30%;
   border-radius: 5px;
 }
 
@@ -188,14 +192,45 @@ h2 {
   transition: 0.2s;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
+
 
 body {
-  background: rgba(234, 234, 234, 0.877);
-}
-.title h1 {
-  color: orangered;
+  background: #118ab2;
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  
+    
   }
+
+ .header{
+   background: yellow;
+   color: white;
+   font-size: 45px;
+   position: relative;
+ } 
+ 
+nav li{
+  color: white;
+  font-size: 45px;
+}
+.box1{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  background:rgba(0,0,0,.1);                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 10px;
+  transition: 0.2s;background: transparent;
+}
+.btn-nav{
+  color: white;
+  font-size: 45px;
+  font-style: none;
+  padding-top: 95px
+  ;
+}
